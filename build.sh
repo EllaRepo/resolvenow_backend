@@ -9,5 +9,5 @@ python manage.py migrate
 
 if [ -n $CREATE_SUPERUSER ];
 then
-  python manage.py createsuperuser --no-input
+  python manage.py createsuperuser --phone --no-input
 fi
